@@ -153,8 +153,8 @@ html_theme_options = {
     'codecov_button': 'true',
     'show_powered_by': 'true',
     #'show_related': 'true',
-    'pypi_button': 'true',  #ERU
-    'rtd_button': 'true',   #ERU
+    #'pypi_button': 'true',  #ERU
+    #'rtd_button': 'true',   #ERU
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
