@@ -1,0 +1,16 @@
+Manual Installation
+
+This project is not yet available on PyPi, my bad; however, if you:
+
+	1. download this repo
+	2. unarchive it
+	3. create a virtual python environment
+	4. activate the virtual environment
+	5. install pillow
+
+then IMM should run. Starting with step #3 above...
+
+	pyvenv IMM_VENV
+	IMM_VENV\Scripts\activate.bat
+	pip install pillow
+	python imm.py

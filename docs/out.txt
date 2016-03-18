@@ -1,0 +1,2072 @@
+Running Sphinx v1.3.6
+>>>> source path: D:\Devel\_python\__eru\imm\imm
+['D:\\Devel\\_python\\__eru\\imm', 'D:\\Devel\\_python\\__eru\\imm\\imm', 'D:\\Devel\\_python\\__eru\\_venv_\\IMM_NEW\\Scripts\\sphinx-build.exe', 'd:\\devel\\_python\\__eru\\imm', 'd:\\devel\\_python\\__eru\\_venv_\\imm_new\\lib\\site-packages\\alabaster-0.7.8-py3.5.egg', 'd:\\devel\\_python\\__eru\\_venv_\\imm_new\\scripts\\python35.zip', 'C:\\Python35\\DLLs', 'C:\\Python35\\lib', 'C:\\Python35', 'd:\\devel\\_python\\__eru\\_venv_\\imm_new', 'd:\\devel\\_python\\__eru\\_venv_\\imm_new\\lib\\site-packages']
+>>>> EXTENSIONS: ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx.ext.todo', 'sphinx.ext.doctest', 'sphinx.ext.autosummary', 'sphinx.ext.coverage', 'alabaster']
+[app] setting up extension: 'sphinx.ext.autodoc'
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.ModuleDocumenter'>
+[app] adding directive: ('automodule', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.ClassDocumenter'>
+[app] adding directive: ('autoclass', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.ExceptionDocumenter'>
+[app] adding directive: ('autoexception', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.DataDocumenter'>
+[app] adding directive: ('autodata', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.FunctionDocumenter'>
+[app] adding directive: ('autofunction', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.MethodDocumenter'>
+[app] adding directive: ('automethod', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.AttributeDocumenter'>
+[app] adding directive: ('autoattribute', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding autodocumenter: <class 'sphinx.ext.autodoc.InstanceAttributeDocumenter'>
+[app] adding directive: ('autoinstanceattribute', <class 'sphinx.ext.autodoc.AutoDirective'>, None, None, {})
+[app] adding config value: ('autoclass_content', 'class', True)
+[app] adding config value: ('autodoc_member_order', 'alphabetic', True)
+[app] adding config value: ('autodoc_default_flags', [], True)
+[app] adding config value: ('autodoc_docstring_signature', True, True)
+[app] adding config value: ('autodoc_mock_imports', [], True)
+[app] adding event: 'autodoc-process-docstring'
+[app] adding event: 'autodoc-process-signature'
+[app] adding event: 'autodoc-skip-member'
+[app] setting up extension: 'sphinx.ext.viewcode'
+[app] adding config value: ('viewcode_import', True, False)
+[app] connecting event 'doctree-read': <function doctree_read at 0x038C0780> [id=0]
+[app] connecting event 'env-merge-info': <function env_merge_info at 0x038C07C8> [id=1]
+[app] connecting event 'html-collect-pages': <function collect_pages at 0x038C08A0> [id=2]
+[app] connecting event 'missing-reference': <function missing_reference at 0x038C0858> [id=3]
+[app] setting up extension: 'sphinx.ext.todo'
+[app] adding config value: ('todo_include_todos', False, 'html')
+[app] adding node: (<class 'sphinx.ext.todo.todolist'>, {})
+[app] adding node: (<class 'sphinx.ext.todo.todo_node'>, {'html': (<function visit_todo_node at 0x038C0B70>, <function depart_todo_node at 0x038C0BB8>), 'man': (<function visit_todo_node at 0x038C0B70>, <function depart_todo_node at 0x038C0BB8>), 'text': (<function visit_todo_node at 0x038C0B70>, <function depart_todo_node at 0x038C0BB8>), 'latex': (<function visit_todo_node at 0x038C0B70>, <function depart_todo_node at 0x038C0BB8>), 'texinfo': (<function visit_todo_node at 0x038C0B70>, <function depart_todo_node at 0x038C0BB8>)})
+[app] adding directive: ('todo', <class 'sphinx.ext.todo.Todo'>, None, None, {})
+[app] adding directive: ('todolist', <class 'sphinx.ext.todo.TodoList'>, None, None, {})
+[app] connecting event 'doctree-read': <function process_todos at 0x038C0978> [id=4]
+[app] connecting event 'doctree-resolved': <function process_todo_nodes at 0x038C0A50> [id=5]
+[app] connecting event 'env-purge-doc': <function purge_todos at 0x038C0AE0> [id=6]
+[app] connecting event 'env-merge-info': <function merge_info at 0x038C0B28> [id=7]
+[app] setting up extension: 'sphinx.ext.doctest'
+[app] adding directive: ('testsetup', <class 'sphinx.ext.doctest.TestsetupDirective'>, None, None, {})
+[app] adding directive: ('testcleanup', <class 'sphinx.ext.doctest.TestcleanupDirective'>, None, None, {})
+[app] adding directive: ('doctest', <class 'sphinx.ext.doctest.DoctestDirective'>, None, None, {})
+[app] adding directive: ('testcode', <class 'sphinx.ext.doctest.TestcodeDirective'>, None, None, {})
+[app] adding directive: ('testoutput', <class 'sphinx.ext.doctest.TestoutputDirective'>, None, None, {})
+[app] adding builder: <class 'sphinx.ext.doctest.DocTestBuilder'>
+[app] adding config value: ('doctest_path', [], False)
+[app] adding config value: ('doctest_test_doctest_blocks', 'default', False)
+[app] adding config value: ('doctest_global_setup', '', False)
+[app] adding config value: ('doctest_global_cleanup', '', False)
+[app] setting up extension: 'sphinx.ext.autosummary'
+[app] setting up extension: 'sphinx.ext.autodoc'
+[app] adding node: (<class 'sphinx.ext.autosummary.autosummary_toc'>, {'html': (<function autosummary_toc_visit_html at 0x03CF3F18>, <function autosummary_noop at 0x03CF3F60>), 'man': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>), 'text': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>), 'latex': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>), 'texinfo': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>)})
+[app] adding node: (<class 'sphinx.ext.autosummary.autosummary_table'>, {'html': (<function autosummary_table_visit_html at 0x03CF3FA8>, <function autosummary_noop at 0x03CF3F60>), 'man': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>), 'text': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>), 'latex': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>), 'texinfo': (<function autosummary_noop at 0x03CF3F60>, <function autosummary_noop at 0x03CF3F60>)})
+[app] adding directive: ('autosummary', <class 'sphinx.ext.autosummary.Autosummary'>, None, None, {})
+[app] adding role: ('autolink', <function autolink_role at 0x03CF9348>)
+[app] connecting event 'doctree-read': <function process_autosummary_toc at 0x03CF3E88> [id=8]
+[app] connecting event 'builder-inited': <function process_generate_options at 0x03CF9390> [id=9]
+[app] adding config value: ('autosummary_generate', [], True)
+[app] setting up extension: 'sphinx.ext.coverage'
+[app] adding builder: <class 'sphinx.ext.coverage.CoverageBuilder'>
+[app] adding config value: ('coverage_ignore_modules', [], False)
+[app] adding config value: ('coverage_ignore_functions', [], False)
+[app] adding config value: ('coverage_ignore_classes', [], False)
+[app] adding config value: ('coverage_c_path', [], False)
+[app] adding config value: ('coverage_c_regexes', {}, False)
+[app] adding config value: ('coverage_ignore_c_items', {}, False)
+[app] adding config value: ('coverage_write_headline', True, False)
+[app] adding config value: ('coverage_skip_undoc_in_source', False, False)
+[app] setting up extension: 'alabaster'
+[app] connecting event 'html-page-context': <function update_context at 0x0381E198> [id=10]
+[app] emitting event: 'builder-inited'()
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 11 source files that are out of date
+updating environment: [app] emitting event: 'env-get-outdated'(<sphinx.environment.BuildEnvironment object at 0x03810C70>, {'installation', 'api', 'authors', 'usa
+11 added, 0 changed, 0 removed
+[app] emitting event: 'env-before-read-docs'(<sphinx.environment.BuildEnvironment object at 0x03810C70>, ['api', 'api/imm.imagedata', 'api/modul
+reading sources... [  9%] api
+[app] emitting event: 'env-purge-doc'(<sphinx.environment.BuildEnvironment object at 0x03810C70>, 'api')
+[app] emitting event: 'source-read'('api', ['=======\nIMM API\n=======\n\n\n.. toctree::\n   :maxdepth: 2\n\n   api/modules\n\n'])
+[app] emitting event: 'doctree-read'(<document: <section "imm api"...>>,)
+reading sources... [ 18%] api/imm.imagedata
+[app] emitting event: 'env-purge-doc'(<sphinx.environment.BuildEnvironment object at 0x03810C70>, 'api/imm.imagedata')
+[app] emitting event: 'source-read'('api/imm.imagedata', ['imm.imagedata module\n====================\n\n.. automodule:: imm.imagedata\
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:4: input:
+.. automodule:: imm.imagedata
+    :members:
+
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[app] emitting event: 'autodoc-process-signature'('module', 'imm.imagedata', <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\image
+[app] emitting event: 'autodoc-process-docstring'('module', 'imm.imagedata', <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\image
+[app] emitting event: 'autodoc-skip-member'('module', 'APPEND_MODE', 'APPEND', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', 'Generator', <class 'imm.imagedata.Generator'>, False, {'members': <object object at 0x00
+[app] emitting event: 'autodoc-skip-member'('module', 'IllegalFileIOWriteModeError', <class 'imm.imagedata.IllegalFileIOWriteModeError'>, True,
+[app] emitting event: 'autodoc-skip-member'('module', 'Image', <module 'PIL.Image' from 'd:\\devel\\_python\\__eru\\_venv_\\imm_new\\lib\\site-
+[app] emitting event: 'autodoc-skip-member'('module', 'ImageTk', <module 'PIL.ImageTk' from 'd:\\devel\\_python\\__eru\\_venv_\\imm_new\\lib\\s
+[app] emitting event: 'autodoc-skip-member'('module', 'NEW_LINE', '\n', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', 'NullHandler', <class 'logging.NullHandler'>, False, {'members': <object object at 0x00E2
+[app] emitting event: 'autodoc-skip-member'('module', 'WRITE_MODE', 'WRITE', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', 'WRITE_MODES', ('wb', 'ab'), True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', 'WRITE_MODE_MAP', {'APPEND': 'ab', 'WRITE': 'wb'}, True, {'members': <object object at 0x
+[app] emitting event: 'autodoc-skip-member'('module', 'WRITE_MODE_NAMES', ('WRITE', 'APPEND'), True, {'members': <object object at 0x00E28DB8>}
+[app] emitting event: 'autodoc-skip-member'('module', '__author__', 'E.R. Uber', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', '__builtins__', {'exit': Use exit() or Ctrl-Z plus Return to exit, 'TimeoutError': <class
+[app] emitting event: 'autodoc-skip-member'('module', '__cached__', 'D:\\Devel\\_python\\__eru\\imm\\imm\\__pycache__\\imagedata.cpython-35.pyc
+[app] emitting event: 'autodoc-skip-member'('module', '__doc__', '\nimagedata\n\nThis module handles reading, perhaps converting, and writing i
+[app] emitting event: 'autodoc-skip-member'('module', '__email__', 'eruber@gmail.com', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', '__file__', 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py', True, {'members': <objec
+[app] emitting event: 'autodoc-skip-member'('module', '__license__', 'ISCL', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', '__loader__', <_frozen_importlib_external.SourceFileLoader object at 0x03D49370>, True, {
+[app] emitting event: 'autodoc-skip-member'('module', '__name__', 'imm.imagedata', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', '__package__', 'imm', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', '__spec__', ModuleSpec(name='imm.imagedata', loader=<_frozen_importlib_external.SourceFil
+[app] emitting event: 'autodoc-skip-member'('module', '__version__', '2.1.0', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', 'dt', <class 'datetime.datetime'>, False, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('module', 'logging', <module 'logging' from 'C:\\Python35\\lib\\logging\\__init__.py'>, False, {'me
+[app] emitting event: 'autodoc-skip-member'('module', 'os', <module 'os' from 'C:\\Python35\\lib\\os.py'>, False, {'members': <object object at
+[app] emitting event: 'autodoc-skip-member'('module', 'sys', <module 'sys' (built-in)>, False, {'members': <object object at 0x00E28DB8>})
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {'members': <object object a
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {'members': <object object a
+[app] emitting event: 'autodoc-skip-member'('class', '__dict__', mappingproxy({'__exit__': <function Generator.__exit__ at 0x03DE5C00>, 'write'
+[app] emitting event: 'autodoc-skip-member'('class', '__doc__', '\n    .. autoclass:: Generator\n    \n    This class reads image files and gen
+[app] emitting event: 'autodoc-skip-member'('class', '__enter__', <function Generator.__enter__ at 0x03DE5BB8>, True, {'members': <object objec
+[app] emitting event: 'autodoc-skip-member'('class', '__exit__', <function Generator.__exit__ at 0x03DE5C00>, True, {'members': <object object 
+[app] emitting event: 'autodoc-skip-member'('class', '__init__', <function Generator.__init__ at 0x03DE5B70>, True, {'members': <object object 
+[app] emitting event: 'autodoc-skip-member'('class', '__module__', 'imm.imagedata', True, {'members': <object object at 0x00E28DB8>})
+[app] emitting event: 'autodoc-skip-member'('class', '__weakref__', <attribute '__weakref__' of 'Generator' objects>, True, {'members': <object
+[app] emitting event: 'autodoc-skip-member'('class', 'close', <function Generator.close at 0x03DE5C90>, False, {'members': <object object at 0x
+[app] emitting event: 'autodoc-skip-member'('class', 'write', <function Generator.write at 0x03DE5C48>, False, {'members': <object object at 0x
+[autodoc] from imm.imagedata import Generator.close
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[autodoc] getattr(_, 'close')
+[autodoc] => <function Generator.close at 0x03DE5C90>
+[app] emitting event: 'autodoc-process-signature'('method', 'imm.imagedata.Generator.close', <function Generator.close at 0x03DE5C90>, {'members': <o
+[app] emitting event: 'autodoc-process-docstring'('method', 'imm.imagedata.Generator.close', <function Generator.close at 0x03DE5C90>, {'members': <o
+[autodoc] from imm.imagedata import Generator.write
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[autodoc] getattr(_, 'write')
+[autodoc] => <function Generator.write at 0x03DE5C48>
+[app] emitting event: 'autodoc-process-signature'('method', 'imm.imagedata.Generator.write', <function Generator.write at 0x03DE5C48>, {'members': <o
+[app] emitting event: 'autodoc-process-docstring'('method', 'imm.imagedata.Generator.write', <function Generator.write at 0x03DE5C48>, {'members': <o
+[autodoc] from imm.imagedata import NullHandler
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'NullHandler')
+[autodoc] => <class 'logging.NullHandler'>
+[autodoc] from imm.imagedata import dt
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'dt')
+[autodoc] => <class 'datetime.datetime'>
+[autodoc] output:
+
+.. py:module:: imm.imagedata
+
+imagedata
+
+This module handles reading, perhaps converting, and writing image data to a text file.
+
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+   
+   .. py:method:: Generator.close()
+      :module: imm.imagedata
+   
+      Close the output write stream.
+      
+   
+   .. py:method:: Generator.write(imagefile, imagevarname)
+      :module: imm.imagedata
+   
+      This method writes the image data read from imagefile to the output text file.
+      The image data will have a variable name specified by imagevarname.
+      
+      :param imagefile: A string specifying the image file name to read.
+      :param imagevarname: A string specifying the image data's variable name.
+      
+      Side Effects:
+      
+      If imagefile is NOT a .png file, then it will be converted to a png file.
+      The resulting converted png file will be written to a directory specified
+      by the imgconvertpath parameter of the Generator constructor. If this path
+      is not specified by the user, the converted image file will be created 
+      in the directory of the imagefile.
+      
+[autodoc] None:None: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[autodoc] D:\Devel\_python\__eru\imm\docs\api\imm.imagedata.rst:5: input:
+.. autoclass:: Generator
+
+[autodoc] from imm.imagedata import Generator
+[autodoc] import imm.imagedata
+[autodoc] => <module 'imm.imagedata' from 'D:\\Devel\\_python\\__eru\\imm\\imm\\imagedata.py'>
+[autodoc] getattr(_, 'Generator')
+[autodoc] => <class 'imm.imagedata.Generator'>
+[app] emitting event: 'autodoc-process-signature'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, "(output='imagedata.txt'
+[app] emitting event: 'autodoc-process-docstring'('class', 'imm.imagedata.Generator', <class 'imm.imagedata.Generator'>, {}, ['.. autoclass:: Generat
+[autodoc] output:
+
+.. py:class:: Generator(output='imagedata.txt', writemode='WRITE', imgconvertpath=None)
+   :module: imm.imagedata
+
+   .. autoclass:: Generator
+   
+   This class reads image files and generates image data that is written to a text file.
+   
+[app] emitting event: 'build-finished'(RecursionError('maximum recursion depth exceeded while calling a Python object',),)
