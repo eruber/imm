@@ -14,3 +14,9 @@ then IMM should run. Starting with step #3 above...
 	IMM_VENV\Scripts\activate.bat
 	pip install pillow
 	python imm.py
+
+
+Pushing an existing local repository to github from the command line:
+
+	git remote add origin https://github.com/eruber/imm.git
+	git push -u origin master
