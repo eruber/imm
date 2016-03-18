@@ -10,7 +10,7 @@ Tests for `imm` module.
 
 import unittest
 
-from imm import imm
+from imm import imagedata
 
 
 class TestImm(unittest.TestCase):
