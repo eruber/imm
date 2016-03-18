@@ -35,7 +35,7 @@ Features
 
 
 .. _ISC: https://en.wikipedia.org/wiki/ISC_license
-.. _ReadTheDocs: https://imm.readthedocs.org
+.. _ReadTheDocs: http://image-module-maker.readthedocs.org/en/latest/
 .. _Python: https://www.python.org
 .. _Pillow: http://python-pillow.org/
 
